@@ -6,17 +6,18 @@
     }
     @font-face {
         font-family: "TT Lakes";
-        src: url(TTLakesCompressed-Italic.ttf);
-        src: url(TTLakesCompressed-Italic.woff);
-        src: url(TTLakesCompressed-Italic.eot);
+        src: url(./fonts/TTLakesCompressed-Regular.eot);
+        src: url(./fonts/TTLakesCompressed-Regular.ttf);
+        src: url(./fonts/TTLakesCompressed-Regular.woff);
     }
     .main {
         display: flex;
         flex-wrap: wrap;
         align-content: space-around;
+    
     }
     .icons-and-logo {
-        width: 100%;
+        max-width: 100%;
         display: flex;
         justify-content: space-around;
         background-color: #FFFFFF;
@@ -63,6 +64,7 @@
         font-size: 16px;
     }
     .content {
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -108,7 +110,7 @@
     }
 }
 
-@media  (min-width: 321px) and (max-width: 768px)  {
+@media (min-width: 321px) and (max-width: 768px) {
     html {
         box-sizing: border-box;
     }
@@ -134,9 +136,9 @@
     }
     @font-face {
         font-family: "TT Lakes";
-        src: url(TTLakesCompressed-Italic.ttf);
-        src: url(TTLakesCompressed-Italic.woff);
-        src: url(TTLakesCompressed-Italic.eot);
+        src: url(./fonts/TTLakesCompressed-Regular.eot);
+        src: url(./fonts/TTLakesCompressed-Regular.ttf);
+        src: url(./fonts/TTLakesCompressed-Regular.woff);
     }
     .main {
         display: flex;
@@ -238,7 +240,7 @@
     }
 }
 
-@media (min-width: 769px) and  (max-width: 1120px) {
+@media (min-width: 769px) and (max-width: 1120px) {
     .icons-and-logo {
         display: none !important;
     }
@@ -298,7 +300,7 @@
         flex: 50%;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         font-size: medium;
     }
     .header-and-links_1120px__link {
@@ -313,6 +315,10 @@
     }
     .header-and-links_1120px__nav {
         display: flex;
+    
+    }
+    .header-and-links_1120px__nav_left {
+    
     }
     .header-and-links_1120px__link {
         align-self: center;
