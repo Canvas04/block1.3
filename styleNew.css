@@ -108,7 +108,7 @@
     }
 }
 
-@media (max-width: 768px) and (min-width: 321px) {
+@media  (min-width: 321px) and (max-width: 768px)  {
     html {
         box-sizing: border-box;
     }
@@ -116,16 +116,16 @@
         box-sizing: inherit;
     }
     .icons-and-logo {
-        display: none;
+        display: none !important;
     }
     .content {
-        display: none;
+        display: none !important;
     }
     .header-and-links_1120px {
-        display: none;
+        display: none !important;
     }
     .content_1120px {
-        display: none;
+        display: none !important;
     }
     .body {
         font-family: "TT Lakes";
@@ -238,7 +238,7 @@
     }
 }
 
-@media (max-width: 1120px) {
+@media (min-width: 769px) and  (max-width: 1120px) {
     .icons-and-logo {
         display: none !important;
     }
