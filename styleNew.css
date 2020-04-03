@@ -53,11 +53,14 @@
         justify-content: space-evenly;
     }
     .menu__item {
-        border: 2px solid #B8FFEC;
-        background: #FFFFFF;
         border-radius: 6px;
         box-sizing: border-box;
         padding: 10px;
+    }
+    .menu__item_blue {
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+
     }
     .menu__link {
         text-decoration: none;
@@ -142,7 +145,7 @@
     .content_1120px {
         display: none !important;
     }
-    html, .body{
+    html, .body {
         font-family: "TT Lakes";
         background-color: #f8f8f8;
         margin: 0;
@@ -204,14 +207,15 @@
         min-width: 1120px;
         overflow-x: auto;
         justify-content: space-around;
-        
     }
     .menu__item {
-        border: 2px solid #B8FFEC;
         background: #FFFFFF;
         border-radius: 6px;
         box-sizing: border-box;
         padding: 10px;
+    }
+    .menu__item_blue {
+        border: 2px solid #B8FFEC;
     }
     .menu__link {
         text-decoration: none;
@@ -289,7 +293,7 @@
         box-sizing: inherit;
     }
     .main {
-        width: 100%;
+        max-width: 100%;
     }
     .header-and-links_1120px {
         width: 100%;
@@ -317,7 +321,6 @@
         align-items: center;
         justify-content: space-evenly;
         font-size: medium;
-        
     }
     .header-and-links_1120px__link {
         text-decoration: none;
@@ -331,7 +334,6 @@
     }
     .header-and-links_1120px__nav {
         display: flex;
-        
     }
     .header-and-links_1120px__nav_left {}
     .header-and-links_1120px__link {
@@ -343,19 +345,22 @@
         padding: 0;
         list-style-type: none;
         flex-wrap: wrap;
-        justify-content: space-between;
-        min-width: 100%;
+        justify-content: space-evenly;
+        
     }
+
+
+
     .menu__item {
-        border: 2px solid #B8FFEC;
-        background: #FFFFFF;
-        border-radius: 6px;
         box-sizing: border-box;
         padding: 10px;
         margin-right: 14px;
     }
-    .menu__item_first {
-        margin-left: 32px;
+    .menu__item_blue {
+        border: 2px solid #B8FFEC;
+        background: #FFFFFF;
+        border-radius: 6px;
+        margin-left: 20px;
     }
     .menu__link {
         text-decoration: none;
@@ -364,7 +369,6 @@
     }
     .content_1120px {
         display: flex;
-        margin-top: 2em;
         justify-content: space-around;
     }
     .content_1120px__text {
@@ -379,7 +383,6 @@
     .content_1120px__image {
         flex-basis: 50%;
         margin-right: 28px;
-       
     }
     .content_1120px__block_link {
         position: relative;
@@ -403,3 +406,4 @@
         top: 5px;
     }
 }
+
