@@ -1,8 +1,9 @@
 @media screen and (max-width: 320px) {
-    .body {
+    html, .body {
         font-family: "TT Lakes";
         background-color: #f8f8f8;
         margin: 0;
+        overflow-x: hidden;
     }
     @font-face {
         font-family: "TT Lakes";
@@ -14,14 +15,14 @@
         display: flex;
         flex-wrap: wrap;
         align-content: space-around;
-    
     }
     .icons-and-logo {
-        max-width: 100%;
+        flex-basis: 100%;
         display: flex;
         justify-content: space-around;
         background-color: #FFFFFF;
         padding: 20px;
+        overflow-x: hidden;
     }
     .icons-and-logo__button {
         border: none;
@@ -64,15 +65,18 @@
         font-size: 16px;
     }
     .content {
-        width: 100%;
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
     .content__text {
-        margin-left: 16px;
-        margin-right: 16px;
+        max-width: 80%;
+        align-self: baseline;
         font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        margin: auto;
     }
     .content__block_link {
         position: relative;
@@ -82,8 +86,10 @@
     .content__link {
         text-decoration: none;
         color: black;
-        margin-left: 20px;
+        margin-left: 25px;
         position: relative;
+        font-weight: bold;
+        font-size: 16px;
     }
     .content__link::before {
         content: '';
@@ -93,8 +99,15 @@
         width: 10px;
         height: 10px;
         position: absolute;
-        left: -15px;
+        left: -16px;
         top: 5px;
+    }
+    .content__block_image {
+        overflow-x: hidden;
+    }
+    .content__image {
+        max-width: 100%;
+        height: auto;
     }
     .icons-and-logo_768px {
         display: none;
@@ -315,11 +328,8 @@
     }
     .header-and-links_1120px__nav {
         display: flex;
-    
     }
-    .header-and-links_1120px__nav_left {
-    
-    }
+    .header-and-links_1120px__nav_left {}
     .header-and-links_1120px__link {
         align-self: center;
     }
