@@ -3,7 +3,7 @@
         font-family: "TT Lakes";
         background-color: #f8f8f8;
         margin: 0;
-        overflow-x: hidden;
+        overflow-x: auto;
     }
     @font-face {
         font-family: "TT Lakes";
