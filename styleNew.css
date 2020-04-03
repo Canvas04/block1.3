@@ -283,6 +283,7 @@
     }
     html {
         box-sizing: border-box;
+        overflow-x: auto;
     }
     *, *:before, *:after {
         box-sizing: inherit;
@@ -311,11 +312,12 @@
         top: 2.4em;
     }
     .header-and-links_1120px__links {
-        flex: 50%;
+        flex: 30%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         font-size: medium;
+        
     }
     .header-and-links_1120px__link {
         text-decoration: none;
@@ -329,6 +331,7 @@
     }
     .header-and-links_1120px__nav {
         display: flex;
+        
     }
     .header-and-links_1120px__nav_left {}
     .header-and-links_1120px__link {
@@ -376,9 +379,7 @@
     .content_1120px__image {
         flex-basis: 50%;
         margin-right: 28px;
-        background-image: url(background.png);
-        background-repeat: no-repeat;
-        height: 500px;
+       
     }
     .content_1120px__block_link {
         position: relative;
