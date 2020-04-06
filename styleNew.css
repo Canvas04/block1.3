@@ -3,7 +3,7 @@
         font-family: "TT Lakes";
         background-color: #f8f8f8;
         margin: 0;
-        overflow-x: auto;
+        overflow-x: hidden;
     }
     .main {
         display: flex;
@@ -36,6 +36,9 @@
         position: absolute;
         left: -20px;
         top: 20px;
+    }
+    .menu {
+        overflow-x: auto;
     }
     .menu__list {
         display: flex;
@@ -142,7 +145,7 @@
         font-family: "TT Lakes";
         background-color: #f8f8f8;
         margin: 0;
-        overflow-x: auto;
+        overflow-x: hidden;
     }
     .main {
         display: flex;
@@ -185,6 +188,9 @@
         position: absolute;
         left: -20px;
         top: 30px;
+    }
+    .menu {
+        overflow-x: auto;
     }
     .menu__list {
         display: flex;
