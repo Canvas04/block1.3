@@ -444,15 +444,14 @@
         display: flex;
         flex-direction: column;
     }
-    .content_768px__text {
-        display: inline-block;
-        margin: 0;
-    }
-    .content_768px__block_image {
-      align-self: baseline;  
-      
-    }
     
+    .content_768px__block_image {
+      margin: 0;
+      margin-top: 10px;
+      }
+    .content_768px__block_image__el {
+        width: 100%;
+    }
     .header {
         margin-left: 20px;
     }
