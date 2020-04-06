@@ -431,23 +431,28 @@
         margin: 0;
         overflow-x: auto;
     }
+    .main {
+        margin:auto;
+    }
     .menu__item {
         background-color: #f8f8f8;
     }
     .menu__item_blue {
         background-color: #FFFFFF;
     }
+    .content_768px {
+        display: flex;
+        flex-direction: column;
+    }
     .content_768px__text {
         display: inline-block;
-        max-width: 30%;
         margin: 0;
     }
     .content_768px__block_image {
-        display: inline-block;
-        max-width: 60%;
-        margin-left: -40px;
-        overflow-x: auto;
+      align-self: baseline;  
+      
     }
+    
     .header {
         margin-left: 20px;
     }
